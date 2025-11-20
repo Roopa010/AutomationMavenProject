@@ -40,9 +40,9 @@ public class PDFUtil {
 	}
 	public static void main(String[] args) {
 		
-		String text = getText("Interview Preparation Batch Course summary (1).pdf",2,2);
+		String text = getText("TWO_WHEELER_Phonepe_Insurance_PDF_250109_185520.pdf",9,9);
 		System.out.println(text);
-		System.out.println(text.contains("TestNG"));
+		System.out.println(text.contains("SHILPA"));
 		
 	}
 
